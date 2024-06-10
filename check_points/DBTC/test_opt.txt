@@ -1,0 +1,46 @@
+----------------- Options ---------------
+                    Dnorm: none                          
+                 att_name: spar                          
+               batch_size: 32                            
+          bottleneck_size: 4                             
+          checkpoints_dir: ./check_points                
+              data_device: cuda:1                        	[default: None]
+                 dataroot: /data1/New_Helen/Bicubic	[default: None]
+             dataset_name: single                        	[default: celeba]
+                    debug: False                         
+                   device: cuda:1                        	[default: None]
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: [1]                           	[default: None]
+                     gpus: 1                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 128                           	[default: None]
+         max_dataset_size: inf                           
+                    model: test                          
+               n_layers_D: 4                             
+                     name: DBTC                          	[default: experiment_name]
+                      ndf: 64                            
+                      ngf: 64                            
+                    ntest: inf                           
+                    num_D: 3                             
+                 num_test: 50                            
+              num_threads: 8                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: none                          
+      pretrain_model_path: ./best.pt                     	[default: ]
+                res_depth: 10                            
+              results_dir: ./results/                    
+              save_as_dir: ./result_helen                	[default: ]
+             scale_factor: 8                             
+                     seed: 123                           
+           serial_batches: False                         
+                   suffix:                               
+            test_img_path:                               
+             test_upscale: 1                             
+                  verbose: False                         
+----------------- End -------------------

@@ -1,0 +1,59 @@
+----------------- Options ---------------
+                    Dnorm: none                          
+                 att_name: spar                          
+               batch_size: 1                             	[default: 32]
+                    beta1: 0.5                           
+          bottleneck_size: 4                             
+          checkpoints_dir: ./check_points                
+           continue_train: False                         
+                     d_lr: 0.0004                        
+              data_device: cuda:0                        	[default: None]
+                 dataroot: /data1/New_CelebA/CelebA/celeba_train	[default: None]
+             dataset_name: celeba                        
+                    debug: False                         
+                   device: cuda:0                        	[default: None]
+                    epoch: latest                        
+              epoch_count: 1                             
+                     g_lr: 0.0001                        
+                 gan_mode: hinge                         
+                  gpu_ids: [0]                           	[default: None]
+                     gpus: 1                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: True                          	[default: None]
+               lambda_pix: 1.0                           
+                load_iter: 0                             	[default: 0]
+                load_size: 128                           	[default: 512]
+                       lr: 0.0002                        
+           lr_decay_iters: 50                            
+                lr_policy: linear                        
+         max_dataset_size: inf                           
+                    model: sparnet                       
+                 n_epochs: 10                            
+           n_epochs_decay: 10                            
+               n_layers_D: 4                             
+                     name: experiment_name               
+                      ndf: 64                            
+                      ngf: 64                            
+              niter_decay: 100                           
+                    num_D: 3                             
+              num_threads: 8                             
+                output_nc: 3                             
+                    phase: train                         
+               preprocess: none                          
+               print_freq: 10                            	[default: 100]
+                res_depth: 10                            
+             resume_epoch: 0                             
+              resume_iter: 0                             
+             save_by_iter: False                         
+          save_epoch_freq: 5                             
+           save_iter_freq: 5000                          
+         save_latest_freq: 500                           
+             scale_factor: 8                             
+                     seed: 123                           
+           serial_batches: False                         
+                   suffix:                               
+             total_epochs: 100                           	[default: 20]
+                  verbose: False                         
+----------------- End -------------------
